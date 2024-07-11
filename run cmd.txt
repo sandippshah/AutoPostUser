@@ -1,1 +1,1 @@
-gunicorn app:app & python runall.py
+gunicorn app:app & python3 runall.py
