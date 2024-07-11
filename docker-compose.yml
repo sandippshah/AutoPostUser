@@ -5,27 +5,27 @@ services:
     container_name: webapp1
     volumes:
       - ./webapp1/messages.txt:/app/messages.txt
-    command: python p.py
+    command: python3 p.py
 
   webapp2:
     build: ./webapp2
     container_name: webapp2
     volumes:
       - ./webapp2/messages.txt:/app/messages.txt
-    command: python p.py
+    command: python3 p.py
 
   webapp3:
     build: ./webapp3
     container_name: webapp3
     volumes:
       - ./webapp3/messages.txt:/app/messages.txt
-    command: python p.py
+    command: python3 p.py
 
   webapp4:
     build: ./webapp4
     container_name: webapp4
     volumes:
       - ./webapp4/messages.txt:/app/messages.txt
-    command: python p.py
+    command: python3 p.py
 
  
