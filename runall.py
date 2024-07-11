@@ -13,7 +13,7 @@ for folder in folder_names:
 
     # Run each Python file using subprocess
     for py_file in python_files:
-        subprocess.run(['python', py_file], check=True)
+        subprocess.run(['python3', py_file], check=True)
 
     # Navigate back to the parent directory
     os.chdir('..')
