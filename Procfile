@@ -1,1 +1,1 @@
-web: python runall.py
+web: python3 runall.py
